@@ -1,13 +1,17 @@
+
+/* This styles all page content  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* This styles the background color for all content in the body element */
 body {
     background-color: #d9dcd6;
 }
 
+/* This styles the header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +19,18 @@ header {
     color: #ffffff;
 }
 
+/* This styles the h1 header with an inline-block display and font size of 48 px element */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This styles the header h1 element with class "seo" to give it an off-grey color*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
-
+/* This sets the header nav to the right of the screen */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,20 +39,25 @@ header nav {
     font-size: 20px;
 }
 
+/* This sets the header nav list element to the default value*/
 header nav ul {
     list-style-type: none;
 }
 
+/* This displays the nav list horizontally */
 header ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This removes the underline and any other text-decoration for all a elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This sets the background image for the hero and
+styles it to cover the full container */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,12 +67,15 @@ a {
     background-position: center;
 }
 
+/* This sets the width and left margin values, and removes the line break between 
+each child element of the section element */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This dictates the styling of each article element */
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -71,29 +85,38 @@ article {
     color: #ffffff;
 }
 
+/* This positions each element with class "float left" to the left of the container, 
+with a 25px right margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* This sets the height for all image elements */
 .article-img {
     max-height: 200px;
 }
 
+/* This sets the bottom margin and font size for all h2 elements */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* This sets the font size for all p elements */
 p {
     font-size: 16px;
 }
 
+/* This positions each element with class "float-right" to the right of the container, 
+with a 25px left margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* This sets the right margin, padding, width, height, font and back-ground color values, and dissallows floating elements on the left or the 
+right side of the aside or child elements*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -105,23 +128,26 @@ aside {
     background-color: #2589bd;
 }
 
+/* This sets the bottom margin and color of all child elements of the aside element */
 .aside-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* This sets the bottom margin and centers text of the h3 element */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* This adds a line break before and after, and sets the margin and max-width of each image element within the aside element */
 .aside-image {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* This sets the padding, font, centers the text, as well as dissallows floating elements on the left or the right side of the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -129,6 +155,7 @@ footer {
     text-align: center;
 }
 
+/* This sets the font size for the h2 footer element */
 .footer-h2 {
     font-size: 20px;
 }
