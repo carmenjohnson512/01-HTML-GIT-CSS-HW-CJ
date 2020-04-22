@@ -9,6 +9,7 @@ This document gives a high-level overview of how this website is set up.
 - Ensured that all links are functioning correctly
 - Cleaned up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements
 - Included comments before each element or section of the page
+NOTE: Image elements contain an empty alt attribute as they are decorative in nature.
 
 
 ## Credits <a name="credits"></a>
